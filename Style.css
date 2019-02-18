@@ -3,28 +3,56 @@ header {
   text-align: center;}
 h1 {
   padding-top: 50px;
-  font-family: fantasy;
+  padding-bottom: 20px;
+  font-family: sans-serif;
   color: #b7b7b7;
   font-size:75px;}
 h3 {
 	display: inline;
-	margin: 20px;}
-  /* unvisited link */
-  a:link {
-    color: #b7b7b7;
-  }
+	margin: 50px;
+  text-transform: uppercase;
+  font-family: sans-serif;}
 
-  /* visited link */
-  a:visited {
-    color: #b7b7b7;
-  }
+h3 a:link {
+  color: #b7b7b7;}
 
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
+h3 a:visited {
+  color: #b7b7b7;}
 
-  /* selected link */
-  a:active {
-    color: hotpink;
-  }
+h3 a:hover {
+  color: #b7b7b7;}
+
+h3 a:active {
+  color: #4886e2;}
+
+h3 a:link {
+  text-decoration: none;}
+
+h3 a:visited {
+  text-decoration: none;}
+
+h3 a:hover {
+  text-decoration: none;}
+
+h3 a:active {
+  text-decoration: none;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b7b7b7;}
+
+  li {
+    float: left;}
+
+  li a {
+    display: block;
+    color: #4886e2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+  li a:hover {
+    background-color: #4886e2;}
