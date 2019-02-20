@@ -44,16 +44,17 @@ ul {
   overflow: hidden;
   background-color: #b7b7b7;}
 
-  li {
-    float: left;}
+li {
+  float: left;}
 
-  li a {
-    display: block;
-    color: #4886e2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;}
+li a {
+  display: block;
+  color: #4886e2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 50px;}
 
-  li a:hover {
+li a:hover {
   color: #b7b7b7;
   background-color: #4886e2;}
