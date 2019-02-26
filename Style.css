@@ -3,15 +3,14 @@ header {
 h1 {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 40px;
+  font-size: 45px;
   color: #b7b7b7;
-  font-family: sans-serif;
-  text-decoration: underline;}
+  font-family: sans-serif;}
 h2 {
   padding-bottom: 20px;
   font-family: sans-serif;
   color: #b7b7b7;
-  font-size:30px;}
+  font-size:20px;}
 
 h3 a:link {
   color: #b7b7b7;}
