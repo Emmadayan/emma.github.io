@@ -7,19 +7,53 @@
   </head>
   <body>
     <h1>North Stamford, USA</h1>
-    <div class="gallery">
-      <a target="_blank" href="CT_USA_001.jpg">
-        <img src="CT_USA_001.jpg" alt="Girl on a Table" width="600" height="400">
-      </a>
-      <div class="desc">Description</div>
-    </div>
-    <div class="gallery">
-      <a target="_blank" href="CT_USA_002.jpg">
-        <img src="CT_USA_002.jpg" alt="Lake" width="600" height="400">
-      </a>
-      <div class="desc">Description</div>
-    </div>
-    <h4 class="description">
-      Shot on Medium Format B&W Film</h4>
-  </body>
-</html>
+
+
+    <img id="myImg" src="CT_USA_001.jpg" alt="North Stamford, CT" width="400" height="100">
+    <img id="myImg1" src="CT_USA_002.jpg" alt="North Stamford, CT" width="400" height="200">
+
+  <div id="myModal" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <div id="myModal2" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="img02">
+    <div id="caption"></div>
+  </div>
+
+  <script>
+    var modal = document.getElementById('myModal');
+    var img1 = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+
+    var modal2 = document.getElementById('myModal2');
+    var img2 = document.getElementById('myImg1');
+    var modalImg2 = document.getElementById("img02");
+
+
+    var captionText = document.getElementById("caption");
+    img1.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;}
+
+    img2.onclick = function(){
+      modal2.style.display = "block";
+      modalImg2.src = this.src;
+      captionText.innerHTML = this.alt;}
+
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+      modal.style.display = "none";}
+
+    var span2 = document.getElementsByClassName("close")[1];
+    span2.onclick = function() {
+      modal2.style.display = "none";}
+  </script>
+
+      </body>
+  </html>

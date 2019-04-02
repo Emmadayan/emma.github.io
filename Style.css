@@ -1,5 +1,5 @@
-header {
-  text-align: center;}
+nav {
+  background-color: #b7b7b7;}
 h1 {
   padding-top: 40px;
   padding-bottom: 20px;
@@ -10,7 +10,7 @@ h2 {
   padding-bottom: 20px;
   font-family: sans-serif;
   color: #b7b7b7;
-  font-size:20px;}
+  font-size:40px;}
 
 h3 a:link {
   color: #b7b7b7;}
@@ -40,8 +40,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #b7b7b7;}
+  overflow: hidden;}
 
 li {
   float: left;}
@@ -58,3 +57,11 @@ li a {
 li a:hover {
   color: #b7b7b7;
   background-color: #4886e2;}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;}
+
+.grey {
+  text-decoration-color: #b7b7b7;}
